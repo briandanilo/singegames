@@ -1,0 +1,50 @@
+.about-page { padding-top: 100px; }
+
+.about-hero { max-width: 720px; margin-bottom: 80px; }
+.about-hero-sub { color: var(--muted); font-size: 1.1rem; line-height: 1.7; margin-top: 20px; }
+
+.about-section { margin-bottom: 80px; }
+
+.values-grid { margin-top: 40px; }
+
+.value-card { display: flex; flex-direction: column; gap: 12px; }
+.value-icon { font-size: 2rem; }
+.value-card h3 { font-size: 1.1rem; }
+.value-card p { color: var(--muted); font-size: 14px; }
+
+.story-art {
+  height: 380px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, var(--bg3) 0%, #0f0810 100%);
+  border: 1px solid var(--border);
+  position: relative;
+}
+.story-art::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  background: radial-gradient(ellipse at 30% 40%, #e6394415 0%, transparent 60%);
+}
+
+.team-grid { margin-top: 40px; }
+
+.team-card { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; }
+
+.team-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 100%);
+  margin-bottom: 4px;
+  flex-shrink: 0;
+}
+
+.team-name { font-size: 1rem; }
+.team-role {
+  font-size: 12px;
+  color: var(--accent);
+  font-family: 'Orbitron', monospace;
+  letter-spacing: 0.06em;
+}
+.team-bio { color: var(--muted); font-size: 13px; line-height: 1.6; }

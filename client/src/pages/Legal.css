@@ -1,0 +1,11 @@
+.legal-page { padding-top: 100px; }
+
+.legal-header { max-width: 720px; margin-bottom: 56px; }
+
+.legal-meta {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 12px;
+  font-family: 'Orbitron', monospace;
+  letter-spacing: 0.05em;
+}
